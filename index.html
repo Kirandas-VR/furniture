@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png"  href="./fav.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cabin+Sketch:wght@400;700&family=Caveat+Brush&family=Dancing+Script:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Finger+Paint&family=Frank+Ruhl+Libre:wght@300..900&family=Handlee&family=Kalam:wght@300;400;700&family=Meow+Script&family=Pacifico&family=Pangolin&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *{
+        padding:0px;
+        margin: 0px;
+        
+    }
+     .carousel-inner .col{
+      border: 1px solid black;
+    }
+    body{
+        font-family: "Kalam", cursive;
+        font-weight: 400;
+ }
+ h1{
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    background-color: grey;
+
+ }
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    }
+   
+#A{
+  margin-left: 20px;
+}
+#C{
+  position:absolute;
+  }
+ #H{
+  position:absolute;
+  top: 50px;
+ } 
+ #G{
+  margin-left: 120px;;
+ }
+ footer{
+  background-color: grey;
+ }
+ #carouselExample1{
+  border: 1px solid black;
+ }
+
+</style>
+</head>
+<body>
+    <header><nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" >
+        <div>
+        <a class="navbar-brand ms-3" href="#"> StyleNest <i class="fa-solid fa-house-chimney"></i></a>
+<p>Furniture bonded with love</p>
+      </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search Products,Colors and more" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="d-flex">
+          <div class="m-2">
+            <i class="fa-solid fa-store mx-3 fx-3"></i>
+          <p>store</p></div>
+          <div class="m-2">
+            <i class="fa-regular fa-user mx-3 fx-3 "></i></i>
+          <p>profile</p></div>
+          <div class="m-2">
+            <i class="fa-regular fa-heart mx-3 fx-3"></i></i>
+          <p>Whishlist (0)</p></div>
+          <div class="m-2">
+            <i class="fa-solid fa-cart-shopping mx-3 fx-3"></i></i>
+          <p>Cart (0)</p></div>
+          </div>
+
+    </nav>
+        
+              </header> 
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+               <ul type="none">
+                <li id="H"></li>
+              </ul>
+              
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0 d-flex justify-content-spacebetween">
+                  <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="#">Sofas</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Living</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Bedroom</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Dinning&kitchen</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Storage</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Study and office</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Mattresses</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Decor</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Lamps and light</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Furnishing</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Outdoor</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Ws Value</a>
+                  </li>
+                  
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul></div>
+              </div>
+            </div>
+          </nav>
+          <nav></nav>
+    </header>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imgs/sofa.webp" class="d-block w-100" alt="..."height="600px">
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/bedroom.png" class="d-block w-100" alt="..."height="600px">
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/dinetable - Copy.jpg" class="d-block w-100" alt="..."height="600px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ronded images -->
+       <div class="row text-center">
+        <h1 class="text-center">Top Picks For You</h1>
+        <p class="text-center">Impressive Collection For Your Dream Home</p>
+        <div class="col text-center"><img id="A" src="./imgs/sofaaa.jpg" width="150px" height="150px" class="rounded-circle"><p class="text-center">sofa sets</p></div>
+        <div class="col"><img src="./imgs/bedroom.png" width="150px" height="150px" class="rounded-circle"><p>beds</p></div>
+        <div class="col"><img src="./imgs/dine1.jpg" width="150px" height="150px" class="rounded-circle"><p>Dinning table sets</p></div>
+        <div class="col"><img src="./imgs/Tv unit.jpg" width="150px" height="150px" class="rounded-circle"><p>Tv units</p></div>
+      </div>
+      <div class="row text-center">
+        <div class="col"><img src="./imgs/studytble.jpg" width="150px" height="150px" class="rounded-circle"><p>Study Tables</p></div>
+        <div class="col"><img src="./imgs/home decor.jpg" width="150px" height="150px" class="rounded-circle"><p>Home Decor</p></div>
+        <div class="col"><img src="./imgs/book self.jpg" width="150px" height="150px" class="rounded-circle"><p>Book Shelves</p></div>
+        <div class="col"><img src="./imgs/lamps.jpg" width="150px" height="150px" class="rounded-circle"><p>Lamps and Lightings</p></div>
+    </div> 
+   
+      </div>
+      <div class="row text-center "><h1>Explore Essensial Home Furniture</h1><p>Design Your Home Decor, Your Way</p>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./imgs/sofaaa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sofa Sets</h5>
+                  <p class="card-text">From Rs 20,199</p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col"><div class="card" style="width: 18rem;">
+            <img src="./imgs/chair.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Seating and Chairs</h5>
+              <p class="card-text">From Rs 1,849</p>
+              
+            </div>
+          </div></div>
+        <div class="col"><div class="card" style="width: 18rem;">
+            <img height="180px" src="./imgs/dine1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dinning Sets</h5>
+              <p class="card-text">From Rs 32,999</p>
+              
+            </div>
+          </div></div>
+        <div class="col"><div class="card" style="width: 18rem;">
+            <img height="180px" src="./imgs/book self.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Book Shelves</h5>
+              <p class="card-text">From Rs 15,000</p>
+              
+            </div>
+          </div></div>
+      </div>
+    </div>
+    <div class="row text-center ">
+      <div class="col">
+          <div class="card" style="width: 18rem;">
+              <img src="./imgs/bed1.jpg" class="card-img-top" alt="..." height="180px">
+              <div class="card-body">
+                <h5 class="card-title">Bed</h5>
+                <p class="card-text">From Rs 20,199</p>
+                
+              </div>
+            </div>
+      </div>
+      <div class="col"><div class="card" style="width: 18rem;">
+          <img src="./imgs/homedecor1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Homedecor</h5>
+            <p class="card-text">From Rs 15,849</p>
+            
+          </div>
+        </div></div>
+      <div class="col"><div class="card" style="width: 18rem;">
+          <img height="180px" src="./imgs/lamps1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">lamps and light</h5>
+            <p class="card-text">From Rs 3,999</p>
+            
+          </div>
+        </div></div>
+      
+          <div class="col"><div class="card" style="width: 18rem;">
+          <img height="180px" src="./imgs/tv3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tv units</h5>
+            <p class="card-text">From Rs 15,000</p>
+          </div>
+        </div></div>
+    </div>
+    <div>
+      <div class="row"><h1 class="text-center">95+Experience Stores Across India</h1>
+        <div class="container text-center border border-shadow bg-light">
+          <span class="fw-bolder bg-success">OFFER</span>Get <span class="text-warning">UPTO 10% OFF</span>* on orders placed at ypur nearest stores</p>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between;"  >
+          <div class="card" style="width: 18rem;">
+              <img src="./imgs/furbengaluru.jpg" class="card-img-top" alt="..."height="180px">
+              <div class="card-body">
+                <h5 class="card-title text-center">Bengaluru</h5>
+                <p class="card-text text-center">8 stores</p>
+                 </div>
+            </div>
+    
+              <div class="card" style="width: 18rem;">
+                  <img src="./imgs/furchennai.webp" class="card-img-top" alt="..."height="180px">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Mumbai</h5>
+                    <p class="card-text text-center">10 stores</p>
+                     </div>
+                </div>
+        
+                  <div class="card" style="width: 18rem;">
+                      <img src="./imgs/furchennai1.jpg" class="card-img-top" alt="..." height="180px">
+                      <div class="card-body">
+                        <h5 class="card-title text-center">Hyderabad</h5>
+                        <p class="card-text text-center">11 stores</p>
+                         </div>
+                    </div>
+  
+                      <div class="card" style="width: 18rem;">
+                          <img src="./imgs/furmumbai.jpg" class="card-img-top" alt="..."height="180px">
+                          <div class="card-body">
+                            <h5 class="card-title text-center">Chennai</h5>
+                            <p class="card-text text-center">8 stores</p>
+                             </div>
+                        </div>
+                          <div class="card" style="width: 18rem;">
+                              <img src="./imgs/furkolkata.jpg" class="card-img-top" alt="..."height="180px">
+                              <div class="card-body">
+                                <h5 class="card-title text-center">Kolkata</h5>
+                                <p class="card-text text-center">10 stores</p>
+                                 </div>
+                            </div>
+              </div>
+     
+      </div>
+    </div>
+
+   
+
+<div id="carouselExample1 " class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <!-- Carousel Item 1 -->
+        <div class="carousel-item active">
+            <div class="row"><h1 class="text-center">Their Words,Our Pride</h1><p class="text-center">Happy Words of our Happy customer</p>
+                <div class="col md-3">
+                    <img  src="./imgs/sofa1.webp" class="d-block w-100" alt="..."height="235px "width="300px">
+                    <p>I bought a sofa from StyleNest and am mostly happy with it. It’s comfortable, stylish, and easy to assemble, though delivery was slow, and it’s a bit smaller than expected. Overall, it’s a good value and I would recommend it.</p>
+                    <h4 class="text-center">Rahul, Hyderabad</h4><img id="G" src="./imgs/star.jpg" alt="" width="100px">
+                    <div class="carousel">
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <img src="./imgs/bed1.jpg" class="d-block w-100" alt="..."height="235px">
+                    <p>"I've been sleeping on the [Bed Name] for a few months now and it's a game-changer! The medium-firm mattress provides excellent support for my back, and I wake up feeling refreshed every morning."</p>
+                    <h4 class="text-center">Arjun,Kerala</h4><img id="G" src="./imgs/star.jpg" alt="" width="100px">
+                    <div class="carousel">
+                     </div>
+                </div>
+                <div class="col md-3">
+                    <img src="./imgs/studytable1.webp" class="d-block w-100" alt="..."height="235px">
+                    <p>"This study table is perfect for my small space. It's sturdy and has plenty of room for my laptop and books. The drawers are great for organizing my stationery. Assembly was a breeze. Highly recommend!"</p>
+                    <h4 class="text-center">Rohith,Mumbai</h4><img id="G" src="./imgs/star.jpg" alt="" width="100px">
+                    <div class="carousel">
+                        
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <img src="./imgs/dinning1.webp" class="d-block w-100" alt="..."height="235px">
+                    <p>"This dining table is perfect for our family of four. It's sturdy and the wood finish is beautiful. Assembly was a bit tricky, but the end result is worth it. We love it!"</p>
+                    <h4 class="text-center">Sumesh,Jaipur</h4><img id="G" src="./imgs/star.jpg" alt="" width="100px">
+                    <div class="carousel">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="..." class="rounded" alt="...">
+        
+        <!-- Carousel Item 2 -->
+        <div class="carousel-item ">
+            <div class="row"><h1 class="text-center">Their Words,Our Pride</h1><p class="text-center">Happy Words of our Happy customer</p>
+                <div class="col md-3 ">
+                    <img src="./imgs/homedecor1.jpg" class="d-block w-100" alt="...">
+                    <p>"This home decoration items for interior is absolutely stunning! The color is exactly as pictured and the quality is impressive. Overall, I'm extremely satisfied with my purchase and would definitely recommend it.""</p>
+                    <h4 class="text-center">hari,Gujarath</h4><img id="G" src="./imgs/star.jpg" alt="" width="100px">
+                    <div class="carousel">
+                   
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <img src="./imgs/Tv unit.jpg" class="d-block w-100" alt="..." height="235px">
+                    <p>"This TV unit is perfect for my living room! It's the ideal size for my 55-inch TV and offers plenty of storage space for my gaming consoles and DVDs. The build quality is solid, and the modern design complements my decor. </p>
+                    <h4 class="text-center">Arun ,Chennai</h4><img id="G" src="./imgs/star.jpg" alt="" width="100px">
+                    <div class="carousel ">
+                        
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <img src="./imgs/lamps and light1.jpg" class="d-block w-100" alt="..." height="235px">
+                    <p>"These LED ceiling lights are fantastic! They provide ample, bright light for my kitchen. The cool white color is perfect for a functional space. Installation was a breeze, and I love the energy-saving feature. Highly recommend!"</p>
+                    <h4 class="text-center">Abhi , Bangaluru</h4><img id="G" src="./imgs/star.jpg" alt="" width="100px">
+                    <div class="carousel">
+                        
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <img src="./imgs/book self1.jpeg" class="d-block w-100" alt="..."height="235px">
+                    <p>"This bookshelf is a perfect fit for my living room. The modern design and sleek black finish look amazing. It's sturdy and well-built, and the shelves are adjustable to fit my book collection perfectly</p>
+                    <h4 class="text-center">Akshay , Kolkata</h4><img id="G" src="./imgs/star.jpg" alt="" width="100px">
+                    <div class="carousel">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more carousel items as needed -->
+    </div>
+    
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+    
+       
+<div class=" d-flex mb-2 bg-secondary text-white">
+  <ul type="none" class="d-flex">
+    <li class="mx-5"><i class="fa-solid fa-store"></i><B>95+</B>experience stores across india</li>
+    <li class="mx-5"><i class="fa-solid fa-car"></i><b>350+</b>Delivary center across india</li>
+    <li><i class="fa-regular fa-thumbs-up"></i><b>10 Lakh+</b>satisfied customers</li>
+    <li class="mx-5"><i class="fa-solid fa-medal"></i><b>Lowest Price</b>satisfied customers</li>
+    
+    <li class="mx-5"><i class="fa-solid fa-thumbs-up"></i><b>36 Months*</b>Warrenty</li>
+  </ul>
+    
+  </div>
+  <marquee class="M-3 bg-primary" behavior="" direction="left"><h2><b>HOMES</b>  <B class="MX-3">IDEALHOME</B>  <b>Facebook</b> <b>BusinessLine</b> <b>Yahoonews</b> <b>YOURSTO</b><BR></h2></marquee>
+   <footer class="mt-4">
+    <section class="mt-4">
+    <div class="row ">
+      <div class="col-2 m-5"><b>OUR COMPANY</b><br>
+      About <br>
+      career <br>
+      Media <br>
+      Blog <br>
+      customer Stories <br>
+      Our Stores
+           </div>
+      <div class="col-2 mt-5">
+        <b>USEFUL LINKS</b><br>
+      customer furniture <br>
+      Exporters<br>
+      Buy in Bulk <br>
+      Hotel Furniture<br>
+      Delivery Location<br>
+      Sitemap
+      </div>
+      <div class="col-2 mt-5">
+        <b>SHOP BY ROOM</b><br>
+      Living Room <br>
+      Bedroom<br>
+      Dinning Room <br>
+      Kids Room<br>
+      Modular Furniture<br>
+      Modular Kitchen <br>
+      Modular Wardrobe
+      </div>
+      <div class="col-2 mt-5">
+        <b>PARTNERS</b><br>
+      Become a franchise <br>
+      Sell on WoodenStreet<br>
+      Design Partner <br><br>
+       <b>TRUSTED BY</b><BR>
+       QRO Certified<br><img width="80px" src="./imgs/qro.png" alt=""><br>
+         Ukcert Certified<br><img width="80px" src="./imgs/ukert.png" alt="">
+      </div>
+      <div class="col-2 mt-5">
+        <b>NEED HELP</b><br>
+      Help Center <br>
+      Contact Us<br>
+      Ask Experts <br>
+      Track your order<br>
+      </div>
+      </div>
+    </div>
+  </section>
+  <br><br><br><br>
+  <div class="row">
+    <div class="col">
+      <div class="container m-4"><i class="fa-solid fa-phone"></i>Buy on Phone<p>9314444747</p></div>
+    </div>
+    <div class="col"><p><b>Delivery Across India:</b>Ahmedabad,Bangalore,Bhopal,Chandigarh,Chennai,coimbature.</p></div>
+    <div class="col"><p>We accept
+      <img src="./imgs/visa.jpg" alt="" width="70px">
+      <img src="./imgs/mastercard.png" alt=""width="70px">
+      <img src="./imgs/rupay.png" alt=""width="70px">
+      <img src="./imgs/mastero.png" alt=""width="70px">
+      <p>Download App</p>
+      <img src="./imgs/getit.png" alt=""width="70px">
+      <img src="./imgs/appstore.png" alt=""width="70px">
+    </p></div>
+  </div>
+   </footer> 
+  
+
+   
+</body>
+</html>
